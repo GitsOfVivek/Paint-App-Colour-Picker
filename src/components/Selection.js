@@ -6,7 +6,7 @@ const Selection = ({ applyColor }) => {
 		<div
 			className="fix-box"
 			style={{ background: `${background}` }}
-			onClick={() => {}}>
+			onClick={() => applyColor()}>
 			<h2 className="subheading">Selection</h2>
 		</div>
 	);
